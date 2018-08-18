@@ -31,23 +31,22 @@ bool strmatch(std::string string, std::string pattern)
     for (int i=1; i <= string.length(); i++)
         for (int j=1; j <= pattern.length(); j++)
         {
+            // '*' symbol can match with any sequence in string
+
             if (pattern[j-1] == '*')
                 array[i][j] = array[i][j-1] || array[i-1][j];
+
+            // '?' mark can match with any symbol
+            // in else cases symbol from string must matches with symbol from pattern
 
             else if (pattern[j-1] == '?' || string[i-1] == pattern[j-1])
                 array[i][j] = array[i-1][j-1];
 
+            // if we didn't find matching then we set 'false'
+
             else
                 array[i][j] = false;
         }
-
-//    // print two-dimensional boolean array on the screen
-//
-//    for (int i=0; i < array.size(); i++) {
-//        for (int j = 0; j < array[i].size(); j++)
-//            std::cout << array[i][j] << " ";
-//        std::cout << std::endl;
-//    }
 
     return array[string.size()][pattern.size()];
 }
