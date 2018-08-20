@@ -17,6 +17,6 @@ value on the main diagonal. If one of them is equal 'true' so we need set 'true'
     ● Secondly, if symbol from pattern is equal question mark '?' or is equal to symbol from string then
 we need replace current element in the array by value which we can get if take a step in up and one more 
 step to left side.
-    ● And the thirtly, if we didn't find matching so need set current value in array as 'false'. 
+    ● And the thirdly, if we didn't find matching so need set current value in array as 'false'. 
 5. In the end of algorithm we must return last element from the main diagonal.
 ```
