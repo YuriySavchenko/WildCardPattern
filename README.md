@@ -5,7 +5,7 @@ Simple realisation of WildCardPattern Matching.
 This problem solves by dynamic programming.
 
 Algorithm consists of 5 main stages:
-1. We must create two-deminsional boolean array and fill it by 'false' values.
+1. We must create two-dimensional boolean array and fill it by 'false' values.
 2. We need set first element of main diagonal as 'true'. Such as empty symbol can only matches with empty 
 symbol.
 3. Last step before the main part of algorithm, we need fill the first row in array. This construction 
