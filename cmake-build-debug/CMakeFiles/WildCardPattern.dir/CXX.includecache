@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuriy/Projects/CLionProjects/WildCardPattern/wildcard.cpp
+wildcard.h
+/home/yuriy/Projects/CLionProjects/WildCardPattern/wildcard.h
+
+/home/yuriy/Projects/CLionProjects/WildCardPattern/wildcard.h
+iostream
+-
+vector
+-
+string
+-
+

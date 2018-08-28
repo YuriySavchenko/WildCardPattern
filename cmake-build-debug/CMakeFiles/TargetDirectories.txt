@@ -1,0 +1,3 @@
+/home/yuriy/Projects/CLionProjects/WildCardPattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yuriy/Projects/CLionProjects/WildCardPattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yuriy/Projects/CLionProjects/WildCardPattern/cmake-build-debug/CMakeFiles/WildCardPattern.dir
