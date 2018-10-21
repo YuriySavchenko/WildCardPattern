@@ -1,4 +1,4 @@
-# WildCardPattern
+# WildCard Pattern
 
 ```
 Simple realisation of WildCardPattern Matching.
